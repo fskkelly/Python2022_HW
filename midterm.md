@@ -127,6 +127,10 @@ print(cubes)
 1 to 5 power of 3
 ```
 ## Programming Python
+- [Fibonacci number](https://en.wikipedia.org/wiki/Fibonacci_number)
+  - [Python Program to Display Fibonacci Sequence Using Recursion](https://www.programiz.com/python-programming/examples/fibonacci-recursion)
+  - [A Python Guide to the Fibonacci Sequence](https://realpython.com/fibonacci-sequence-python/)
+  - [Fibonacci Sequence: Iterative Solution in Python](https://pythonistaplanet.com/fibonacci-sequence-iterative/)
 ```
 The Fibonacci numbers may be defined by the recurrence relation
  F_{0}=0, F_{1}=1
@@ -142,10 +146,6 @@ the recurrence F_{n}=F_{n-1}+F_{n-2} is valid for n > 2
 (1)Write a Python function/Program to Find Fibonacci Numbers using Recursion
 (2)use iterative Approach To Find the nth Term Of Fibonacci Sequence(You need to write a function using loop)
 ```
-- [Fibonacci number](https://en.wikipedia.org/wiki/Fibonacci_number)
-  - [Python Program to Display Fibonacci Sequence Using Recursion](https://www.programiz.com/python-programming/examples/fibonacci-recursion)
-  - [A Python Guide to the Fibonacci Sequence](https://realpython.com/fibonacci-sequence-python/)
-  - [Fibonacci Sequence: Iterative Solution in Python](https://pythonistaplanet.com/fibonacci-sequence-iterative/)
 ```
 # Fibonacci (recursive)
 def F(n):
