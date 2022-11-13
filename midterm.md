@@ -96,6 +96,10 @@ for n in range(2, upto + 1):
         primes.append(n)
 print(primes)
 ```
+```
+[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+prime numbers from 2 to 100
+```
 - B2.What is the output of this code in Python? explain it.
 ```python
 # primes.else.py
@@ -109,12 +113,19 @@ for n in range(2, upto + 1):
         primes.append(n)
 print(primes)
 ```
+```
+[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+prime numbers from 2 to 100
+```
 - B3.What is the output of this code in Python? explain it.
 ```
 cubes = [x**3 for x in range(1,6)]
 print(cubes)
 ```
-
+```
+[1, 8, 27, 64, 125]
+1 to 5 power of 3
+```
 ## Programming Python
 ```
 The Fibonacci numbers may be defined by the recurrence relation
@@ -131,7 +142,10 @@ the recurrence F_{n}=F_{n-1}+F_{n-2} is valid for n > 2
 (1)Write a Python function/Program to Find Fibonacci Numbers using Recursion
 (2)use iterative Approach To Find the nth Term Of Fibonacci Sequence(You need to write a function using loop)
 ```
-
+- [Fibonacci number](https://en.wikipedia.org/wiki/Fibonacci_number)
+  - [Python Program to Display Fibonacci Sequence Using Recursion](https://www.programiz.com/python-programming/examples/fibonacci-recursion)
+  - [A Python Guide to the Fibonacci Sequence](https://realpython.com/fibonacci-sequence-python/)
+  - [Fibonacci Sequence: Iterative Solution in Python](https://pythonistaplanet.com/fibonacci-sequence-iterative/)
 ```
 # Fibonacci (recursive)
 def F(n):
@@ -157,8 +171,3 @@ def fibo(n):
 print(fibo(6))
 print(fibo(15))
 ```
-
-- [Fibonacci number](https://en.wikipedia.org/wiki/Fibonacci_number)
-  - [Python Program to Display Fibonacci Sequence Using Recursion](https://www.programiz.com/python-programming/examples/fibonacci-recursion)
-  - [A Python Guide to the Fibonacci Sequence](https://realpython.com/fibonacci-sequence-python/)
-  - [Fibonacci Sequence: Iterative Solution in Python](https://pythonistaplanet.com/fibonacci-sequence-iterative/)
